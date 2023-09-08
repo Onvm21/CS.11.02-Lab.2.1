@@ -70,6 +70,7 @@ public class Main {
 
     // 5. triple
     public static String triple(String word){
+
         return(word+word+word);
     }
 
