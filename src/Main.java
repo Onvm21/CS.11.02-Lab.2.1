@@ -25,7 +25,7 @@ public class Main {
         System.out.println("gimme a random word: ");
         String word = askTriple.next();
         String triple = triple(word);
-        //System.out.println(triple);
+        System.out.println(triple);
 
         //half
         double halved = half(5);
@@ -70,7 +70,6 @@ public class Main {
 
     // 5. triple
     public static String triple(String word){
-        System.out.println(word+word+word);
         return(word+word+word);
     }
 
